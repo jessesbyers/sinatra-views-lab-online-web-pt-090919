@@ -9,7 +9,7 @@ The date is Wednesday, November 18, 2015. -->
 <html>
     <body>
       <h1>Today</h1>
-      <%= date = Date.today%>
+      <%= date = Date.today.strftime("%A, %B %d, %Y")%>
       <p><%"The date is #{date}"%></p>
       <!-- <p><%=Date.today.strftime%></p> -->
 
